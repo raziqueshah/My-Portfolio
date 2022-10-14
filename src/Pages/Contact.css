@@ -1,0 +1,140 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.contact-title{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.para{
+    margin: 5px;
+}
+
+.contact-body{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    background-color: aqua;
+    height: 60%;
+    width: 25%;
+    border-radius: 2%;
+}
+
+.con-head{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.con-description{
+    margin: 10px 15px 20px 15px;
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: inherit;
+    font-size: 15px;
+}
+
+.icons{
+    margin: 30px 0px 10px 20px;
+    font-size: 20px;
+}
+
+.sett-icon{
+    color: blue;
+}
+
+.p_data{
+    width: 20%;
+    margin: 15px;
+    text-align: center;
+}
+
+.right{
+    background-color: aqua;
+    height: 90%;
+    width: 35%;
+    border-radius: 2%;
+}
+
+.forn-heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form{
+    margin: 20px 10px 10px 40px;
+}
+
+input{
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    margin: 0px 0 10px 0;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+input:focus{
+    border-bottom: 1px solid rgb(252, 182, 6);
+}
+
+input:hover{
+    border-bottom: 1px solid blue;
+}
+
+textarea{
+    width: 90%;
+    height: 15vh;
+    resize: vertical;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+textarea:focus{
+    border-bottom: 1px solid rgb(252, 182, 6);
+}
+
+textarea:hover{
+    border-bottom: 1px solid blue;
+}
+
+.recaptcha{
+   margin-bottom: 10px;
+}
+
+.send-btn{
+    width: 25%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.send-btn:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}

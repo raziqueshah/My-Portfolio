@@ -1,0 +1,60 @@
+.abouts{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+}
+
+.sidebar{
+    width: 20vw;
+    height: 100%;
+}
+
+.profile{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-photo{
+    background-image: url('../images/profile.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+}
+
+.p-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.p-status{
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.p-btn{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-set{
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+}

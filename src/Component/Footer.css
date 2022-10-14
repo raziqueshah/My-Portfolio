@@ -1,0 +1,43 @@
+.footer{
+    background-color: #082e45;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-title{
+    color: #7af2de;
+    cursor: pointer;
+}
+
+.f-color{
+    color: #e21b6c;
+}
+
+.f-icons{
+    color: #7af2de;
+    margin: 20px 0 0px 0;
+    font-size: 25px;
+}
+
+.f-icon{
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.f-icon:hover{
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.f-title:hover{
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: #7af2de;
+}

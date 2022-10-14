@@ -1,0 +1,29 @@
+.aboutme{
+    width: 80vw;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-line{
+    width: 30%;
+    /* size: 10px; */
+}
+
+.a-description{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-cv{
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+}
